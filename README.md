@@ -81,17 +81,17 @@ Description of Model 1 Accuracy, Precision, and Recall scores.
 
 SUMMARY
 
-- Strengths
+- Strengths:
 Excellent precision in predicting healthy loans.
 Adequate data points available for training healthy loan classification.
 
-- Limitations
+- Limitations:
 Insufficient representation of high-risk loan data.
 Limited loan value range (up to $23,500).
 Suboptimal performance in accurately identifying high-risk loans.
 
-- Recommendations
+- Recommendations:
 While the model may suffice for scenarios involving loans below $23,500 and historical loan distribution aligning with the dataset proportions, caution is advised for broader applications or instances necessitating nuanced risk assessment. Supplementary risk evaluation mechanisms and contextual considerations beyond the model's predictions should be incorporated into lending decision-making processes to mitigate potential risks effectively. 
 
-- Key Findings
+- Key Findings:
 While the Logistic Regression model exhibits exceptional precision in identifying healthy loans, it shows a notable limitation in accurately classifying risky loans, with approximately 10% being misclassified as healthy. This discrepancy raises concerns, particularly regarding the potential financial ramifications associated with defaults on high-risk loans. Furthermore, the scarcity of high-risk loan data poses a challenge to the model's learning process, potentially impeding its ability to generalise effectively.
